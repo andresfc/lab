@@ -1,6 +1,6 @@
 /**
 @file lab1.cpp
-@brief Se hace un breve descipción del codigo
+@brief Se hace un breve descipciÃ³n del codigo
 @author ANDRES CORREA, NEIL GUTIERREZ
 @date 05/09/2014
 
@@ -25,7 +25,7 @@ int i, n, n1, aleatorio, P=1, U=10;
 
 int main(int argc,char *argv[])
 { 
-             /*Petición y contador de caracteres de frase a codificar*/
+             /*PeticiÃ³n y contador de caracteres de frase a codificar*/
            printf("Introduzca una frase:\n"); 
                    for(n=0;(txt[n]=getchar()) != '\n';++n); 
 txt[n]='\0'; 
@@ -33,7 +33,7 @@ txt[n]='\0';
 printf("La palabra %s tiene %d letras.\n",txt,n); 
 
 
-/*Generación de número al azar por letra introducida*/
+/*GeneraciÃ³n de nÃºmero al azar por letra introducida*/
 
 int i,j,max=txt[n],letras,con=0;
 	for(i=0;i<max;i++);
@@ -44,10 +44,12 @@ int i,j,max=txt[n],letras,con=0;
             {con++;frecuencias[i]=con;}
     	}
     	con=0;
-    	printf("la fruecunsia es :",con,n);
+    	printf("la fruecuencia es :",con,n);
     }
 }
 system("PAUSE");
 
 return 0;
 }
+
+//QUIUBO ANDRES QUE MAS XD, arregle algo de ortografia
