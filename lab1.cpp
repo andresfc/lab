@@ -14,8 +14,8 @@ Esta es una funcion para saber el algoritmo de huffman
 #include <time.h>
 
 int i, n, n1, aleatorio, P=1, U=10;
-char txt[50];
-int frecu();
+ char txt[10];
+ int frecu();
 /**
 @brief funcion a probar
 @param argc 
@@ -25,11 +25,9 @@ int frecu();
 
 int main(int argc,char *argv[])
 { 
-
-/*Petición y contador de caracteres de frase a codificar*/
-printf("Introduzca una frase:\n"); 
-
-for(n=0;(txt[n]=getchar()) != '\n';++n); 
+             /*Petición y contador de caracteres de frase a codificar*/
+           printf("Introduzca una frase:\n"); 
+                   for(n=0;(txt[n]=getchar()) != '\n';++n); 
 txt[n]='\0'; 
 
 printf("La palabra %s tiene %d letras.\n",txt,n); 
